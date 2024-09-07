@@ -3,7 +3,7 @@ WITH
   casos_estado AS (
     SELECT 
       date
-      ,state
+      ,state AS estado
       ,SUM(confirmed) AS total_casos_confirmados
       ,ROW_NUMBER() OVER (PARTITION BY state ORDER BY date DESC) AS rn
     FROM `coral-bebop-357319.Sandbox.caso`
