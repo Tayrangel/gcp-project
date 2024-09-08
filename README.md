@@ -7,6 +7,8 @@ A arquitetura utiliza Google Cloud Storage (GCS), Google Cloud Functions (GCF), 
 Na camada Silver, os dados são processados e refinados, aplicando regras de negócio, testes de nulidade e completude para garantir a qualidade. Finalmente, na camada Gold, os dados são transformados em tabelas de dimensões e fatos, otimizadas para análises. Essas tabelas são então conectadas ao Looker Studio, permitindo a criação de dashboards e relatórios dinâmicos para insights estratégicos. Essa arquitetura garante uma solução escalável e eficiente, com governança de dados.
 <img src"/Images/arquitetura_de_dados.png">
 
+### Análise de dados:
+
 ### Fonte de dados:
 https://brasil.io/dataset/covid19/caso_full/
 https://www.ibge.gov.br/explica/codigos-dos-municipios.php
