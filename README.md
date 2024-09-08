@@ -17,7 +17,25 @@ Os dados foram obtidos das fontes listadas abaixo, no formato .csv, e foram adic
 
 <img src="/Cloud_Storage/gcs_bucket.gif">
 
-#### Cloud Functions
+### Cloud Functions
 Desenvolvido o script com o mecanismo de acionar o GCF quando adicionado os arquivos no bucket GCS.
 
 <img src="/Cloud_Functions/gcf_function.gif">
+
+## Análise
+### BigQuery
+As análises realizadas com os dados se encontram em forma de perguntas em:
+
+* [BigQuery](/BigQuery)
+
+### Looker Studio
+Para o dashboard utilizou a ferramenta Looker Studio e pode ser visto pelo link: [Veja Aqui!](https://lookerstudio.google.com/s/gT_OVRF_5T4)
+
+O gráfico de taxa de letalidade por estado foi escolhido para proporcionar uma visão geográfica distribuída, permitindo identificar regiões com taxas mais altas ou mais baixas. Tal informação é crucial para reconhecer padrões em diferentes áreas, facilitando a implementação de intervenções. Além disso, ao identificar as regiões que necessitam de maior atenção, é possível priorizar recursos de saúde pública e direcionar medidas políticas de maneira mais eficaz.
+
+Este gráfico também promove transparência com os cidadãos, destacando a gravidade da situação em determinadas regiões. Ao comparar esses dados com gráficos de análise temporal, é possível identificar padrões ao longo do tempo, ajudando na tomada de decisões.
+
+#### Acessibilidade
+A paleta de cores foi escolhida pensando no tema do dashboard, bem como, validada por uma ferramenta que informa se pessoas com daltonismo teriam conflitos com as cores selecionadas. Além disso, Todas as escolhas de proporção de contraste das cores do texto e de fundo, passaram no teste.
+
+<img src="/Imagens/acessibilidade.gif">
