@@ -7,7 +7,7 @@ WITH
       ,date
       ,estimated_population AS populacao_estado
       ,ROW_NUMBER() OVER (PARTITION BY state ORDER BY date DESC) AS rn
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE 
       place_type = 'state'
     QUALIFY rn = 1
@@ -19,7 +19,7 @@ WITH
       ,city_ibge_code AS municipio
       ,estimated_population AS populacao_municipio
       ,ROW_NUMBER() OVER (PARTITION BY state ORDER BY date DESC) AS rn
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE 
       place_type = 'city'
     QUALIFY rn = 1

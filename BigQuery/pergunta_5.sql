@@ -5,7 +5,7 @@ WITH
   municipios AS (
     SELECT 
       COUNT(DISTINCT(city_ibge_code)) AS total_municipios
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE
       place_type = 'city'
   )
@@ -13,7 +13,7 @@ WITH
   ,municipios_com_obitos AS (
     SELECT 
       COUNT(DISTINCT(city_ibge_code)) AS total_municipios_obitos
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE 
       deaths > 0
       AND place_type = 'city'

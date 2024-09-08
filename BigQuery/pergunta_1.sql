@@ -6,7 +6,7 @@ WITH
       ,state AS estado
       ,SUM(confirmed) AS total_casos_confirmados
       ,ROW_NUMBER() OVER (PARTITION BY state ORDER BY date DESC) AS rn
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE
       place_type = 'state'
     GROUP BY 1,2

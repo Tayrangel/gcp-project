@@ -7,7 +7,7 @@ WITH
       ,estimated_population AS total_populacao
       ,SUM(deaths) AS total_obitos
       ,ROW_NUMBER() OVER (PARTITION BY state ORDER BY date DESC) AS rn
-    FROM `coral-bebop-357319.Sandbox.caso`
+    FROM `coral-bebop-357319.covid.caso`
     WHERE
       place_type = 'state'
     GROUP BY 1,2,3
