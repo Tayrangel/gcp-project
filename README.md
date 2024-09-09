@@ -36,15 +36,15 @@ O gráfico de taxa de letalidade por estado foi escolhido para proporcionar uma 
 Este gráfico também promove transparência com os cidadãos, destacando a gravidade da situação em determinadas regiões. Ao comparar esses dados com gráficos de análise temporal, é possível identificar padrões ao longo do tempo, ajudando na tomada de decisões.
 
 <h5 style="color: #2846AB">Dashboard Covid-19 - Home</h5>
-<img src="/Imagens/dash_1.png">
+<img src="/Images/dash_1.png">
 
 <h5 style="color: #2846AB">Dashboard Covid-19 - Visão Geral</h5>
-<img src="/Imagens/dash_2.png">
+<img src="/Images/dash_2.png">
 
 <h5 style="color: #2846AB">Dashboard Covid-19 - Detalhamento</h5>
-<img src="/Imagens/dash_3.png">
+<img src="/Images/dash_3.png">
 
 #### Acessibilidade
 A paleta de cores foi escolhida pensando no tema do dashboard, bem como, validada por uma ferramenta que informa se pessoas com daltonismo teriam conflitos com as cores selecionadas. Além disso, Todas as escolhas de proporção de contraste das cores do texto e de fundo, passaram no teste.
 
-<img src="/Imagens/acessibilidade.png">
+<img src="/Images/acessibilidade.png">
