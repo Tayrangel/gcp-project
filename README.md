@@ -29,11 +29,7 @@ As análises realizadas com os dados se encontram em forma de perguntas em:
 * [BigQuery](/BigQuery)
 
 ### Looker Studio
-Para o dashboard utilizou a ferramenta Looker Studio e pode ser visto pelo link: [Veja Aqui!](https://lookerstudio.google.com/s/gT_OVRF_5T4)
-
-O gráfico de taxa de letalidade por estado foi escolhido para proporcionar uma visão geográfica distribuída, permitindo identificar regiões com taxas mais altas ou mais baixas. Tal informação é crucial para reconhecer padrões em diferentes áreas, facilitando a implementação de intervenções. Além disso, ao identificar as regiões que necessitam de maior atenção, é possível priorizar recursos de saúde pública e direcionar medidas políticas de maneira mais eficaz.
-
-Este gráfico também promove transparência com os cidadãos, destacando a gravidade da situação em determinadas regiões. Ao comparar esses dados com gráficos de análise temporal, é possível identificar padrões ao longo do tempo, ajudando na tomada de decisões.
+Para o dashboard utilizou a ferramenta Looker Studio.
 
 <h5 style="color: #2846AB">Dashboard Covid-19 - Home</h5>
 <img src="/Images/home.png">
